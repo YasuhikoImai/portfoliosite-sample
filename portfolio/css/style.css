@@ -1,0 +1,231 @@
+body {
+  color: #212259;
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+.container header {
+  font-family: 'Lato', sans-serif;
+}
+
+@media (min-width: 992px) {
+  .container header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.container header h1 {
+  font-size: 40px;
+}
+
+.container header nav ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 992px) {
+  .container header nav ul {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-grid-columns: none;
+        grid-template-columns: none;
+  }
+}
+
+.container header nav ul li {
+  text-align: center;
+  padding: 16px;
+  border: solid 1px #e3e3e3;
+}
+
+@media (min-width: 992px) {
+  .container header nav ul li {
+    border: none;
+  }
+}
+
+.container header nav ul li a {
+  color: #212259;
+}
+
+.container header nav ul li a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+.container section .title {
+  font-size: 32px;
+  margin: 0 0 40px 0;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.container section .aboutarea {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+  .container section .aboutarea {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.container section .aboutarea img {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .container section .aboutarea img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container section .aboutarea .description {
+    width: 50%;
+  }
+}
+
+.container section .aboutarea .description .description-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container section .aboutarea .description .description-icon .fa-twitter {
+  width: 50px;
+  height: 50px;
+  color: #4AB3F4;
+}
+
+.container section .aboutarea .description .description-icon .fa-youtube {
+  width: 50px;
+  height: 50px;
+  color: #E14550;
+}
+
+.container section .aboutarea .description .description-icon .fa-rss {
+  width: 50px;
+  height: 50px;
+  color: #323232;
+}
+
+@media (min-width: 768px) {
+  .container section .service-area {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 0 30px;
+  }
+}
+
+.container section .service-area .service-item h3 {
+  margin: 0 0 40px 0;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.container section .service-area .service-item .service-icon {
+  margin: 0 0 40px 0;
+  text-align: center;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container section .service-area .service-item .service-icon .fa-code {
+  width: 62.5px;
+  height: 50px;
+  color: #777474;
+}
+
+.container section .service-area .service-item .service-icon .fa-pencil-alt {
+  width: 50px;
+  height: 50px;
+  color: #777474;
+}
+
+.container section .service-area .service-item .service-icon .fa-video {
+  width: 56.25px;
+  height: 50px;
+  color: #777474;
+}
+
+@media (min-width: 768px) {
+  .container section .works-area {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 0 30px;
+  }
+}
+
+.container section .works-area .work-item img {
+  margin: 0 0 40px 0;
+  width: 100%;
+  border: solid 1px #e2e2e2;
+}
+
+.container section .contact-form {
+  margin: 0 0 40px 0;
+}
+
+@media (min-width: 992px) {
+  .container section .contact-form {
+    width: 400px;
+    margin: 0 auto 40px auto;
+  }
+}
+
+.container section .contact-form form .form-content input {
+  width: 100%;
+  height: 28px;
+  border: solid 1px #ececec;
+}
+
+.container section .contact-form form .form-content textarea {
+  width: 100%;
+  border: solid 1px #ececec;
+}
+
+.container section .contact-form form button {
+  width: 250px;
+  background-color: #535252;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+footer {
+  font-family: 'Lato', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
